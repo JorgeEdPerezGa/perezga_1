@@ -7,7 +7,7 @@ class Welcome extends Component {
     return (
       <header className="app-header">
         <h1 className="app-title">PEREZGA</h1>
-      </header>
+        </header>
     );
   }
 }
