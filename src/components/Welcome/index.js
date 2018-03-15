@@ -5,7 +5,9 @@ class Welcome extends Component {
 
   render() {
     return (
-      <div>WELCOME</div>
+      <header className="app-header">
+        <h1 className="app-title">PEREZGA</h1>
+        </header>
     );
   }
 }
