@@ -8,3 +8,12 @@
 
 .app-title {
   font-size: 1.5em; }
+
+.gallery-section {
+  display: flex;
+  justify-content: center; }
+
+.gallery-image {
+  margin: 12px; }
+  .gallery-image:hover {
+    cursor: pointer; }
