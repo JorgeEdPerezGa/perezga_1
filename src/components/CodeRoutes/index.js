@@ -3,6 +3,7 @@ import { Route } from 'react-router-dom';
 import Welcome from '../CodePages/Welcome';
 import Hyperspace from '../CodePages/Hyperspace';
 import Headcount from '../CodePages/Headcount';
+import MovieTracker from '../CodePages/MovieTracker';
 import CodeNav from '../CodeNav';
 
 export const CodeRoutes = () => {
@@ -12,6 +13,7 @@ export const CodeRoutes = () => {
       <Route exact path="/code" component={ Welcome }/>
       <Route path="/code/hyperspace" component={ Hyperspace }/>
       <Route path="/code/headcount" component={ Headcount }/>
+      <Route path="/code/movie-tracker" component={ MovieTracker }/>
     </div>
   );
 };

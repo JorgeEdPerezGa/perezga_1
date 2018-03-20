@@ -24,6 +24,12 @@ class Welcome extends Component {
               <div className="headcount-image gallery-image"></div>
             </Link>
           </article>
+          <article>
+            <p>MOVIE TRACKER</p>
+            <Link to={"/code/movie-tracker"}>
+              <div className="movie-tracker-image gallery-image"></div>
+            </Link>
+          </article>
         </section>
       </div>
     );

@@ -14,6 +14,14 @@
   width: 540px;
 }
 
+.movie-tracker-image {
+  background-image: url('https://github.com/JorgeEdPerezGa/movie-tracker/raw/master/public/MovieTrackerScreenshot.png');
+  background-repeat: no-repeat;
+  background-size: 540px;
+  height: 310px;
+  width: 540px;
+}
+
 @media screen and (max-width: 400px) {
   .hyperspace-image {
     background-repeat: no-repeat;
