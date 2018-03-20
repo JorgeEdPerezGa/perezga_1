@@ -20,7 +20,9 @@ class Welcome extends Component {
           </article>
           <article>
             <p>HEADCOUNT</p>
-            <div className="headcount-image gallery-image"></div>
+            <Link to={"/code/headcount"}>
+              <div className="headcount-image gallery-image"></div>
+            </Link>
           </article>
         </section>
       </div>
