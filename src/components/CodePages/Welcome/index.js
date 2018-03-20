@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './style.css';
 
 class Welcome extends Component {
+
   render() {
     return (
       <div>
@@ -12,7 +14,9 @@ class Welcome extends Component {
         <section className="gallery-section">
           <article>
             <p>HYPERSPACE</p>
-            <div className="hyperspace-image gallery-image"></div>
+            <Link to={"/code/hyperspace"}>
+              <div className="hyperspace-image gallery-image"></div>
+            </Link>
           </article>
           <article>
             <p>HEADCOUNT</p>
