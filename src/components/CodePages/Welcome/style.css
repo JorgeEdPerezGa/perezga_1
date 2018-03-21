@@ -1,31 +1,20 @@
-.hyperspace-image {
-  background-image: url("https://github.com/JorgeEdPerezGa/hyperspace/raw/master/public/screenshots/1.png");
+.hyperspace-image, .headcount-image, .movie-tracker-image {
   background-repeat: no-repeat;
   background-size: 540px;
-  height: 310px;
+  height: 300px;
   width: 540px; }
+
+.hyperspace-image {
+  background-image: url("https://github.com/JorgeEdPerezGa/hyperspace/raw/master/public/screenshots/1.png"); }
 
 .headcount-image {
-  background-image: url("https://www.turing.io/sites/default/files/styles/project_screenshot/public/project_screenshots/headcount_1.png?itok=d3PoOOY0");
-  background-repeat: no-repeat;
-  background-size: 540px;
-  height: 310px;
-  width: 540px; }
+  background-image: url("https://www.turing.io/sites/default/files/styles/project_screenshot/public/project_screenshots/headcount_1.png?itok=d3PoOOY0"); }
 
 .movie-tracker-image {
-  background-image: url("https://github.com/JorgeEdPerezGa/movie-tracker/raw/master/public/MovieTrackerScreenshot.png");
-  background-repeat: no-repeat;
-  background-size: 540px;
-  height: 310px;
-  width: 540px; }
+  background-image: url("https://github.com/JorgeEdPerezGa/movie-tracker/raw/master/public/MovieTrackerScreenshot.png"); }
 
 @media screen and (max-width: 400px) {
-  .hyperspace-image {
-    background-repeat: no-repeat;
-    background-size: 320px;
-    height: 180px;
-    width: 320px; }
-  .headcount-image {
+  .hyperspace-image, .headcount-image, .movie-tracker-image {
     background-repeat: no-repeat;
     background-size: 320px;
     height: 180px;
