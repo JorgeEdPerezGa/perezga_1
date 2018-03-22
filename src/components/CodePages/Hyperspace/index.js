@@ -21,6 +21,11 @@ class Hyperspace extends Component {
     };
   }
 
+  goGitHub = () => {
+    const repository = 'https://github.com/JorgeEdPerezGa/hyperspace';
+    window.open(`${repository}`);
+  }
+
   displaySet0 = () => {
     return this.state.images_set_0.map((image, index) => {
       return (
@@ -42,6 +47,7 @@ class Hyperspace extends Component {
   }
 
   render() {
+
     return (
       <div>
         <section className="icon-section">
@@ -73,7 +79,9 @@ class Hyperspace extends Component {
           <div className>
             <p>{`It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.`}</p>
           </div>
-          <button className="repository-button">Repository Page</button>
+          <button
+            className="repository-button"
+            onClick={this.goGitHub}>Repository Page</button>
           <section className="project-section">
             {this.displaySet0()}
             <p>{`It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.`}</p>

@@ -1,3 +1,6 @@
+button:focus {
+  outline: none; }
+
 .app {
   text-align: center;
   font-family: 'Open Sans', sans-serif; }
@@ -74,3 +77,7 @@
   background: none;
   border: #a6cbd8 2px solid;
   color: #758e96; }
+  .repository-button:hover {
+    background: #0696a5;
+    color: #f5f5f5;
+    cursor: pointer; }
