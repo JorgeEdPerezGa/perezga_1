@@ -24,3 +24,42 @@
     cursor: pointer;
   }
 }
+
+.icon-section {
+  background: #c7c7c7;
+  display: flex;
+  justify-content: flex-end;
+  height: 100px;
+  padding-right: 30px;
+  margin-bottom: 60px;
+}
+
+.technology-icon {
+  width: 50px;
+  margin: 0 20px;
+}
+
+.react-icon {
+  width: 60px
+}
+
+.router-icon {
+  width: 70px
+}
+
+.sass-icon {
+  width: 65px
+}
+
+.git-icon {
+  width: 90px
+}
+
+.repository-button {
+  height: 50px;
+  width: 180px;
+  font-size: 17px;
+  background: none;
+  border: #a6cbd8 2px solid;
+  color: #758e96;
+}
