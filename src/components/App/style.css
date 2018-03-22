@@ -10,6 +10,29 @@
 .app-title {
   font-size: 1.5em; }
 
+.page-menu {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background: #e0e0e0; }
+  .page-menu .nav {
+    color: #828181; }
+  .page-menu .active {
+    background: #c7c7c7;
+    color: #222222; }
+
+.nav {
+  padding: 14px 25px;
+  text-decoration: none; }
+
+.project-section {
+  background: #e0e0e0;
+  width: 90%;
+  padding: 40px;
+  border: 1px #adacac solid;
+  margin: 20px auto; }
+
 .gallery-section {
   display: flex;
   flex-wrap: wrap;

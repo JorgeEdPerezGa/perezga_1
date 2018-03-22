@@ -74,7 +74,7 @@ class Hyperspace extends Component {
             <p>{`It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.`}</p>
           </div>
           <button className="repository-button">Repository Page</button>
-          <section>
+          <section className="project-section">
             {this.displaySet0()}
             <p>{`It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.`}</p>
             {this.displaySet1()}
