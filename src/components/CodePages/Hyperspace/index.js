@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Image from '../../Image';
-import TechnologyLogo from '../../TechnologyLogo';
 import './style.css';
 
 class Hyperspace extends Component {
