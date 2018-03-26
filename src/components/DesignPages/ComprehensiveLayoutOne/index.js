@@ -33,7 +33,7 @@ class ComprehensiveLayoutOne extends Component {
             src={require("../../../assets/technologies/illustrator.svg")}/>
         </section>
         <section>
-          <div className="page-title">BATMAN - Icon Set And <p className="page-title-second-line">Static Comprehensive Layout</p></div>
+          <div className="page-title page-title-long">BATMAN - Icon Set And <p className="page-title-second-line">Static Comprehensive Layout</p></div>
           <div className>
           </div>
           <button
