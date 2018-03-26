@@ -20,7 +20,7 @@ button:focus {
 .page-title {
   color: #222222;
   border: 2px #adacac solid;
-  width: 500px;
+  width: 350px;
   margin: 0 auto 50px;
   padding: 30px;
   font-size: 27px;
@@ -29,6 +29,10 @@ button:focus {
 
 .page-title-second-line {
   margin: 0;
+}
+
+.page-title-long {
+  width: 500px;
 }
 
 .page-menu {
@@ -118,6 +122,7 @@ button:focus {
   background: none;
   border: #a6cbd8 2px solid;
   color: #758e96;
+  margin-bottom: 30px;
   &:hover {
     background: #0696a5;
     color: #f5f5f5;
@@ -127,7 +132,6 @@ button:focus {
 
 .repository-button-left {
   margin-right: 20px;
-  margin-bottom: 30px;
 }
 
 .repository-button-right {
