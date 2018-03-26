@@ -17,6 +17,20 @@ button:focus {
   font-size: 1.5em;
 }
 
+.page-title {
+  color: #222222;
+  border: 2px #adacac solid;
+  width: 500px;
+  margin: 0 auto 50px;
+  padding: 30px;
+  font-size: 27px;
+  font-weight: 300;
+}
+
+.page-title-second-line {
+  margin: 0;
+}
+
 .page-menu {
   height: 50px;
   display: flex;
@@ -89,6 +103,14 @@ button:focus {
   width: 90px;
 }
 
+.html-icon {
+  width: 60px;
+}
+
+.css-icon {
+  width: 60px;
+}
+
 .repository-button {
   height: 50px;
   width: 180px;
@@ -101,4 +123,13 @@ button:focus {
     color: #f5f5f5;
     cursor: pointer;
   }
+}
+
+.repository-button-left {
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.repository-button-right {
+  margin-left: 20px;
 }

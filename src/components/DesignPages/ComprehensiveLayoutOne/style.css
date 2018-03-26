@@ -1,0 +1,11 @@
+.batman-icon-set-article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.batman-web-screenshot {
+  width: 100%; }
+
+.batman-icon {
+  width: 400px;
+  height: 400px; }
