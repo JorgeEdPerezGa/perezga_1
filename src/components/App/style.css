@@ -65,7 +65,8 @@ button:focus {
   width: 70px; }
 
 .sass-icon {
-  width: 65px; }
+  width: 65px;
+  margin: 0 10px 0 20px; }
 
 .git-icon {
   width: 90px; }
