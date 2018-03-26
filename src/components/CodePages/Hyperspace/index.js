@@ -10,10 +10,10 @@ class Hyperspace extends Component {
         'https://github.com/JorgeEdPerezGa/hyperspace/raw/master/public/screenshots/1.png'
       ],
       images_set_1: [
-        'https://github.com/JorgeEdPerezGa/hyperspace/blob/master/public/screenshots/2.png',
+        'https://github.com/JorgeEdPerezGa/hyperspace/raw/master/public/screenshots/2.png',
         'https://github.com/JorgeEdPerezGa/hyperspace/raw/master/public/screenshots/4.png',
-        'https://github.com/JorgeEdPerezGa/hyperspace/raw/master/public/screenshots/3.gif',
         'https://github.com/JorgeEdPerezGa/hyperspace/raw/master/public/screenshots/3.png',
+        'https://github.com/JorgeEdPerezGa/hyperspace/raw/master/public/screenshots/3.gif',
         'https://github.com/JorgeEdPerezGa/hyperspace/raw/master/public/screenshots/4.gif'
       ]
 
