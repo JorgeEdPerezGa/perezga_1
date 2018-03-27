@@ -54,6 +54,9 @@ class Hyperspace extends Component {
             className="technology-icon"
             src={require("../../../assets/technologies/jslogo.svg")}/>
           <img
+            className="technology-icon"
+            src={require("../../../assets/technologies/es6logo.svg")}/>
+          <img
             className="technology-icon react-icon"
             src={require("../../../assets/technologies/reactlogo.svg")}/>
           <img
@@ -65,6 +68,12 @@ class Hyperspace extends Component {
           <img
             className="technology-icon sass-icon"
             src={require("../../../assets/technologies/sasslogo.svg")}/>
+          <img
+            className="technology-icon"
+            src={require("../../../assets/technologies/firebase.svg")}/>
+          <img
+            className="technology-icon"
+            src={require("../../../assets/technologies/jestlogo.svg")}/>
           <img
             className="technology-icon git-icon"
             src={require("../../../assets/technologies/gitLogo.svg")}/>
@@ -79,8 +88,35 @@ class Hyperspace extends Component {
             onClick={this.goGitHub}>Repository Page</button>
           <section className="project-section">
             {this.displaySet0()}
-            <p>{`It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.`}</p>
-            <p>{`It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.`}</p>
+            <div className="project-description">
+              <p className="paragraph-title">Synopsis</p>
+              <p className="page-paragraph">{`HYPERSPACE is a web application for artists. A solo project that offers users the ability to create, complete, and undo complete tasks, browse current bodies of work that are a part of the Harvard Art Museums' collection, and personalize showcards (post cards) to promote upcoming exhibitions.`}</p>
+              <p className="page-paragraph">{`The application registers and logins users through firebase google authentication.`}</p>
+            </div>
+            <div className="project-description">
+              <p className="paragraph-title">Project Goals</p>
+              <p
+                className="page-paragraph">
+                {`• Create modular React components`}</p>
+              <p
+                className="page-paragraph">
+                {`• Connect components to Redux store`}</p>
+              <p
+                className="page-paragraph">
+                {`• Test components from both a unit and acceptance standpoint`}</p>
+              <p
+                className="page-paragraph">
+                {`• Design an appealing and user friendly app`}</p>
+            </div>
+            <div className="project-description">
+              <p className="paragraph-title">Contributor</p>
+              <p
+                className="page-paragraph">
+                Jorge Ed PerezGa - https://github.com/JorgeEdPerezGa</p>
+            </div>
+            <div className="project-description">
+              <p className="paragraph-title">Project Layout</p>
+            </div>
             {this.displaySet1()}
           </section>
         </section>
