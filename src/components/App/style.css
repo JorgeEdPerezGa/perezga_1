@@ -51,6 +51,22 @@ button:focus {
   border: 1px #adacac solid;
   margin: 20px auto; }
 
+.project-description {
+  width: 80%;
+  margin: 0 auto 10px; }
+
+.paragraph-title {
+  text-align: left;
+  color: #222222;
+  font-size: 30px;
+  font-weight: 600; }
+
+.page-paragraph {
+  text-align: left;
+  color: #222222;
+  font-size: 20px;
+  font-weight: 500; }
+
 .gallery-section {
   display: flex;
   flex-wrap: wrap;
