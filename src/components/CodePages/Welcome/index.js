@@ -8,24 +8,23 @@ class Welcome extends Component {
     return (
       <div>
         <section>
-          <p>PROJECTS</p>
-          <p>{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.`}</p>
+          <p className="main-page-title">PROJECTS</p>
         </section>
         <section className="gallery-section">
-          <article>
-            <p>HYPERSPACE</p>
+          <article className="gallery-article">
+            <p className="main-page-project-title">HYPERSPACE</p>
             <Link to={"/code/hyperspace"}>
               <div className="hyperspace-image gallery-image"></div>
             </Link>
           </article>
-          <article>
-            <p>HEADCOUNT</p>
+          <article className="gallery-article">
+            <p className="main-page-project-title">HEADCOUNT</p>
             <Link to={"/code/headcount"}>
               <div className="headcount-image gallery-image"></div>
             </Link>
           </article>
-          <article>
-            <p>MOVIE TRACKER</p>
+          <article className="gallery-article">
+            <p className="main-page-project-title">MOVIE TRACKER</p>
             <Link to={"/code/movie-tracker"}>
               <div className="movie-tracker-image gallery-image"></div>
             </Link>

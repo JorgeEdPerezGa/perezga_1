@@ -11,7 +11,10 @@ button:focus {
   color: white; }
 
 .app-title {
-  font-size: 1.5em; }
+  margin: 0;
+  float: left;
+  font-size: 18px;
+  font-weight: 600; }
 
 .page-title {
   color: #222222;
@@ -21,6 +24,20 @@ button:focus {
   padding: 30px;
   font-size: 27px;
   font-weight: 300; }
+
+.main-page-title {
+  color: #222222;
+  width: 350px;
+  margin: 10px auto;
+  padding: 30px 30px 10px 30px;
+  font-size: 27px;
+  font-weight: 400; }
+
+.main-page-project-title {
+  text-align: right;
+  margin-right: 15px;
+  font-size: 17px;
+  font-weight: 400; }
 
 .page-title-second-line {
   margin: 0; }
@@ -33,7 +50,7 @@ button:focus {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background: #e0e0e0; }
+  background: #f3f2f2; }
   .page-menu .nav {
     color: #828181; }
   .page-menu .active {
@@ -49,7 +66,7 @@ button:focus {
   color: #9df6ff; }
 
 .project-section {
-  background: #e0e0e0;
+  background: #f3f2f2;
   width: 90%;
   padding: 40px;
   border: 1px #adacac solid;
@@ -75,6 +92,10 @@ button:focus {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
+
+.gallery-article {
+  background: #f3f2f2;
+  margin: 20px; }
 
 .gallery-image {
   margin: 12px; }
