@@ -6,6 +6,9 @@ button:focus {
   font-family: 'Open Sans', sans-serif; }
 
 .app-header {
+  width: 100vw;
+  z-index: 1;
+  position: fixed;
   background-color: #222;
   padding: 20px;
   color: white; }
@@ -19,7 +22,9 @@ button:focus {
 .page-title {
   color: #222222;
   border: 2px #adacac solid;
-  width: 350px;
+  border-left: 0;
+  border-right: 0;
+  width: 300px;
   margin: 0 auto 50px;
   padding: 30px;
   font-size: 27px;
@@ -28,8 +33,8 @@ button:focus {
 .main-page-title {
   color: #222222;
   width: 350px;
-  margin: 10px auto;
-  padding: 30px 30px 10px 30px;
+  margin: 0;
+  padding: 180px 30px 10px 30px;
   font-size: 27px;
   font-weight: 400; }
 
@@ -46,13 +51,16 @@ button:focus {
   width: 500px; }
 
 .page-menu {
+  position: fixed;
+  padding-top: 64px;
+  width: 100vw;
   height: 50px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background: #f3f2f2; }
+  background: #504f4f; }
   .page-menu .nav {
-    color: #828181; }
+    color: #a3a3a3; }
   .page-menu .active {
     background: #c7c7c7;
     color: #222222; }
@@ -108,7 +116,8 @@ button:focus {
   justify-content: flex-end;
   height: 100px;
   padding-right: 30px;
-  margin-bottom: 60px; }
+  margin-bottom: 60px;
+  padding-top: 115px; }
 
 .technology-icon {
   width: 50px;
