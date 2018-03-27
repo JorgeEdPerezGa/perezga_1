@@ -41,8 +41,12 @@ button:focus {
     color: #222222; }
 
 .nav {
+  color: #e8e8e8;
   padding: 14px 25px;
   text-decoration: none; }
+
+.active {
+  color: #9df6ff; }
 
 .project-section {
   background: #e0e0e0;
