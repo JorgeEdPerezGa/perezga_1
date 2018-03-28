@@ -73,7 +73,7 @@ class ComprehensiveLayoutTwo extends Component {
               </article>
             </div>
             <div className="project-description">
-              <p className="paragraph-title paragraph-title-two">Icon Set</p>
+              <p className="paragraph-title paragraph-title-two">Illustration Set</p>
               <article className="pokemon-icon-set-article">
                 <img
                   className="pokemon-illustration"
