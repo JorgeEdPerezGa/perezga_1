@@ -80,6 +80,9 @@ button:focus {
   border: 1px #adacac solid;
   margin: 20px auto; }
 
+.project-section-two {
+  background: #222222; }
+
 .project-description {
   width: 80%;
   margin: 0 auto 10px; }
@@ -90,11 +93,17 @@ button:focus {
   font-size: 30px;
   font-weight: 600; }
 
+.paragraph-title-two {
+  color: #e5e3d1; }
+
 .page-paragraph {
   text-align: left;
   color: #222222;
   font-size: 20px;
   font-weight: 500; }
+
+.page-paragraph-two {
+  color: #a9a9a9; }
 
 .gallery-section {
   display: flex;

@@ -42,35 +42,62 @@ class ComprehensiveLayoutOne extends Component {
           <button
             className="repository-button repository-button-right"
             onClick={this.goLiveSite}>Live Site</button>
-          <section className="project-section">
+          <section className="project-section project-section-two">
+            <div className="project-description">
+              <p className="paragraph-title paragraph-title-two">Description</p>
+              <p
+                className="page-paragraph page-paragraph-two">
+                {`• Very first HTML and CSS static comprehensive layout`}</p>
+              <p
+                className="page-paragraph page-paragraph-two">
+                {`• Original artowork inspired by Batman: The Animated Series`}</p>
+              <p
+                className="page-paragraph page-paragraph-two">
+                {`• Vector based illustrations`}</p>
+            </div>
             <img
               className="batman-web-screenshot"
               src={require("../../../assets/design/batman/screen-shot-0.png")}/>
-            <p>{`It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.`}</p>
-            <p>{`It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.`}</p>
-            <article className="batman-icon-set-article">
-              <img
-                className="batman-icon"
-                src={require("../../../assets/design/batman/batman.svg")}/>
-              <img
-                className="batman-icon"
-                src={require("../../../assets/design/batman/catwoman.svg")}/>
-              <img
-                className="batman-icon"
-                src={require("../../../assets/design/batman/two-face.svg")}/>
-              <img
-                className="batman-icon"
-                src={require("../../../assets/design/batman/harley-quinn.svg")}/>
-              <img
-                className="batman-icon"
-                src={require("../../../assets/design/batman/poison-ivy.svg")}/>
-              <img
-                className="batman-icon"
-                src={require("../../../assets/design/batman/joker.svg")}/>
-              <img
-                className="batman-icon"
-                src={require("../../../assets/design/batman/riddler.svg")}/>
-            </article>
+            <div className="project-description">
+              <p className="paragraph-title paragraph-title-two">Process</p>
+              <article className="batman-icon-set-article">
+                <img
+                  className="batman-icon batman-icon-batman"
+                  src={require("../../../assets/design/batman/process-0.jpg")}/>
+                <img
+                  className="batman-icon batman-icon-batman"
+                  src={require("../../../assets/design/batman/process-1.svg")}/>
+                <img
+                  className="batman-icon batman-icon-batman"
+                  src={require("../../../assets/design/batman/process-2.jpg")}/>
+                <img
+                  className="batman-icon batman-icon-batman"
+                  src={require("../../../assets/design/batman/batman.svg")}/>
+              </article>
+            </div>
+            <div className="project-description">
+              <p className="paragraph-title paragraph-title-two">Icon Set</p>
+              <article className="batman-icon-set-article">
+                <img
+                  className="batman-icon"
+                  src={require("../../../assets/design/batman/poison-ivy.svg")}/>
+                <img
+                  className="batman-icon"
+                  src={require("../../../assets/design/batman/catwoman.svg")}/>
+                <img
+                  className="batman-icon"
+                  src={require("../../../assets/design/batman/harley-quinn.svg")}/>
+                <img
+                  className="batman-icon"
+                  src={require("../../../assets/design/batman/joker.svg")}/>
+                <img
+                  className="batman-icon"
+                  src={require("../../../assets/design/batman/two-face.svg")}/>
+                <img
+                  className="batman-icon"
+                  src={require("../../../assets/design/batman/riddler.svg")}/>
+              </article>
+            </div>
           </section>
         </section>
       </div>
