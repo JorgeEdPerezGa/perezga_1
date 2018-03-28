@@ -17,6 +17,12 @@ class Welcome extends Component {
               <div className="batman-image gallery-image"></div>
             </Link>
           </article>
+          <article className="gallery-article">
+            <p className="main-page-project-title">POKEMON</p>
+            <Link to={"/design/comp-two"}>
+              <div className="pokemon-image gallery-image"></div>
+            </Link>
+          </article>
         </section>
       </div>
     );

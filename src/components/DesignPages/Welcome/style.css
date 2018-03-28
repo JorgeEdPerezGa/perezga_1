@@ -1,4 +1,4 @@
-.batman-image, .headcount-image, .movie-tracker-image {
+.batman-image, .pokemon-image, .movie-tracker-image {
   background-repeat: no-repeat;
   background-size: 540px;
   height: 300px;
@@ -7,9 +7,5 @@
 .batman-image {
   background-image: url("../../../assets/design/batman/batman-cover.svg"); }
 
-@media screen and (max-width: 400px) {
-  .hyperspace-image, .headcount-image, .movie-tracker-image {
-    background-repeat: no-repeat;
-    background-size: 320px;
-    height: 180px;
-    width: 320px; } }
+.pokemon-image {
+  background-image: url("../../../assets/design/pokemon/pokemon-cover.svg"); }
