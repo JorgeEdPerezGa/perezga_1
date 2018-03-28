@@ -12,7 +12,6 @@ class Headcount extends Component {
       images_set_1: [
         ''
       ]
-
     };
   }
 
@@ -50,6 +49,9 @@ class Headcount extends Component {
             className="technology-icon"
             src={require("../../../assets/technologies/jslogo.svg")}/>
           <img
+            className="technology-icon"
+            src={require("../../../assets/technologies/es6logo.svg")}/>
+          <img
             className="technology-icon react-icon"
             src={require("../../../assets/technologies/reactlogo.svg")}/>
           <img
@@ -68,9 +70,52 @@ class Headcount extends Component {
             className="repository-button"
             onClick={this.goGitHub}>Repository Page</button>
           <section className="project-section">
-            {this.displaySet0()}
-            <p>{`It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.`}</p>
-            <p>{`It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.`}</p>
+            <img
+              className="image"
+              src={require("../../../assets/headcount/headcount.gif")}/>
+            <div className="project-description">
+              <p className="paragraph-title">Synopsis</p>
+              <p className="page-paragraph">{`HEADCOUNT, an educational district counter, keeps track of institutional statistics in the state on Colorado. Teachers and parents are able to analyze student data by district, year, and percentage, and select districts' information to be compared side by side.`}</p>
+            </div>
+            <div className="project-description">
+              <p className="paragraph-title">Project Goals</p>
+              <p
+                className="page-paragraph">
+                {`• Create modular React components`}</p>
+              <p
+                className="page-paragraph">
+                {`• Write meaningful, comprehensive unit tests`}</p>
+              <p
+                className="page-paragraph">
+                {`• Use propTypes to validate props passed to each component`}</p>
+              <p
+                className="page-paragraph">
+                {`• UI should change to reflect the data provided by the file selected`}</p>
+            </div>
+            <div className="project-description">
+              <p className="paragraph-title">Contributor</p>
+              <p
+                className="page-paragraph">
+                Jorge Ed PerezGa - https://github.com/JorgeEdPerezGa</p>
+            </div>
+            <div className="project-description">
+              <p className="paragraph-title">Project Layout</p>
+            </div>
+            <img
+              className="image"
+              src={require("../../../assets/headcount/screen-shot-0.png")}/>
+            <img
+              className="image"
+              src={require("../../../assets/headcount/screen-shot-1.png")}/>
+            <img
+              className="image"
+              src={require("../../../assets/headcount/screen-shot-2.png")}/>
+            <img
+              className="image"
+              src={require("../../../assets/headcount/screen-shot-3.png")}/>
+            <img
+              className="image"
+              src={require("../../../assets/headcount/screen-shot-4.png")}/>
             {this.displaySet1()}
           </section>
         </section>

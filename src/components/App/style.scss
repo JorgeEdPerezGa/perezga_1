@@ -8,23 +8,48 @@ button:focus {
 }
 
 .app-header {
+  width: 100vw;
+  z-index: 1;
+  position: fixed;
   background-color: #222;
   padding: 20px;
   color: white;
 }
 
 .app-title {
-  font-size: 1.5em;
+  margin: 0;
+  float: left;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .page-title {
   color: #222222;
   border: 2px #adacac solid;
-  width: 350px;
+  border-left: 0;
+  border-right: 0;
+  width: 300px;
   margin: 0 auto 50px;
   padding: 30px;
   font-size: 27px;
   font-weight: 300;
+}
+
+.main-page-title {
+  color: #222222;
+  width: 350px;
+  // margin: 10px auto;
+  margin: 0;
+  padding: 180px 30px 10px 30px;
+  font-size: 27px;
+  font-weight: 400;
+}
+
+.main-page-project-title {
+  text-align: right;
+  margin-right: 15px;
+  font-size: 17px;
+  font-weight: 400;
 }
 
 .page-title-second-line {
@@ -36,13 +61,18 @@ button:focus {
 }
 
 .page-menu {
+  position: fixed;
+  padding-top: 64px;
+  width: 100vw;
   height: 50px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background: #e0e0e0;
+  // background: #f3f2f2;
+  background: #504f4f;
   .nav {
-    color: #828181;
+    // color: #828181;
+    color: #a3a3a3;
   }
   .active {
     background: #c7c7c7;
@@ -51,16 +81,25 @@ button:focus {
 }
 
 .nav {
+  color: #e8e8e8;
   padding: 14px 25px;
   text-decoration: none;
 }
 
+.active {
+  color: #9df6ff;
+}
+
 .project-section {
-  background: #e0e0e0;
+  background: #f3f2f2;
   width: 90%;
   padding: 40px;
   border: 1px #adacac solid;
   margin: 20px auto;
+}
+
+.project-section-two {
+  background: #222222;
 }
 
 .project-description {
@@ -75,6 +114,10 @@ button:focus {
   font-weight: 600;
 }
 
+.paragraph-title-two {
+  color: #e5e3d1;
+}
+
 .page-paragraph {
   text-align: left;
   color: #222222;
@@ -82,10 +125,19 @@ button:focus {
   font-weight: 500;
 }
 
+.page-paragraph-two {
+  color: #a9a9a9;
+}
+
 .gallery-section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.gallery-article {
+  background: #f3f2f2;
+  margin: 20px;
 }
 
 .gallery-image {
@@ -102,6 +154,8 @@ button:focus {
   height: 100px;
   padding-right: 30px;
   margin-bottom: 60px;
+  padding-top: 115px;
+
 }
 
 .technology-icon {

@@ -1,15 +1,26 @@
 .batman-icon-set-article {
+  // display: flex;
+  // // width: 100vw;
+  // flex-wrap: wrap;
+  // justify-content: center;
   display: flex;
-  // width: 100vw;
+  margin: auto;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .batman-web-screenshot {
-  width: 100%;
+  width: 80%;
+  margin-top: 50px;
+  border: 1px #404040 solid;
 }
 
 .batman-icon {
-  width: 400px;
-  height: 400px;
+  width: 33%;
+  height: 33%;
+}
+
+.batman-icon-batman {
+  width: 50%;
+  margin-right: auto;
 }

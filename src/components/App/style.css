@@ -6,21 +6,43 @@ button:focus {
   font-family: 'Open Sans', sans-serif; }
 
 .app-header {
+  width: 100vw;
+  z-index: 1;
+  position: fixed;
   background-color: #222;
   padding: 20px;
   color: white; }
 
 .app-title {
-  font-size: 1.5em; }
+  margin: 0;
+  float: left;
+  font-size: 18px;
+  font-weight: 600; }
 
 .page-title {
   color: #222222;
   border: 2px #adacac solid;
-  width: 350px;
+  border-left: 0;
+  border-right: 0;
+  width: 300px;
   margin: 0 auto 50px;
   padding: 30px;
   font-size: 27px;
   font-weight: 300; }
+
+.main-page-title {
+  color: #222222;
+  width: 350px;
+  margin: 0;
+  padding: 180px 30px 10px 30px;
+  font-size: 27px;
+  font-weight: 400; }
+
+.main-page-project-title {
+  text-align: right;
+  margin-right: 15px;
+  font-size: 17px;
+  font-weight: 400; }
 
 .page-title-second-line {
   margin: 0; }
@@ -29,27 +51,37 @@ button:focus {
   width: 500px; }
 
 .page-menu {
+  position: fixed;
+  padding-top: 64px;
+  width: 100vw;
   height: 50px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background: #e0e0e0; }
+  background: #504f4f; }
   .page-menu .nav {
-    color: #828181; }
+    color: #a3a3a3; }
   .page-menu .active {
     background: #c7c7c7;
     color: #222222; }
 
 .nav {
+  color: #e8e8e8;
   padding: 14px 25px;
   text-decoration: none; }
 
+.active {
+  color: #9df6ff; }
+
 .project-section {
-  background: #e0e0e0;
+  background: #f3f2f2;
   width: 90%;
   padding: 40px;
   border: 1px #adacac solid;
   margin: 20px auto; }
+
+.project-section-two {
+  background: #222222; }
 
 .project-description {
   width: 80%;
@@ -61,16 +93,26 @@ button:focus {
   font-size: 30px;
   font-weight: 600; }
 
+.paragraph-title-two {
+  color: #e5e3d1; }
+
 .page-paragraph {
   text-align: left;
   color: #222222;
   font-size: 20px;
   font-weight: 500; }
 
+.page-paragraph-two {
+  color: #a9a9a9; }
+
 .gallery-section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
+
+.gallery-article {
+  background: #f3f2f2;
+  margin: 20px; }
 
 .gallery-image {
   margin: 12px; }
@@ -83,7 +125,8 @@ button:focus {
   justify-content: flex-end;
   height: 100px;
   padding-right: 30px;
-  margin-bottom: 60px; }
+  margin-bottom: 60px;
+  padding-top: 115px; }
 
 .technology-icon {
   width: 50px;

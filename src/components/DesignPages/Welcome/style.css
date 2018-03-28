@@ -1,0 +1,11 @@
+.batman-image, .pokemon-image, .movie-tracker-image {
+  background-repeat: no-repeat;
+  background-size: 540px;
+  height: 300px;
+  width: 540px; }
+
+.batman-image {
+  background-image: url("../../../assets/design/batman/batman-cover.svg"); }
+
+.pokemon-image {
+  background-image: url("../../../assets/design/pokemon/pokemon-cover.svg"); }
