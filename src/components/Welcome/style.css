@@ -1,0 +1,51 @@
+.welcome-main {
+  padding-top: 60px; }
+
+.media-icon {
+  width: 40px;
+  float: right;
+  margin: 25px 20px 0 0; }
+  .media-icon:hover {
+    cursor: pointer; }
+
+.in-icon {
+  margin-right: 40px; }
+
+.personal-photo {
+  background-image: url("../../assets/personal/personal.jpg");
+  background-size: cover;
+  height: -webkit-fill-available; }
+
+.bio-quote {
+  display: none; }
+
+.bio-text {
+  display: none; }
+
+.media-icon-article {
+  height: 90px; }
+
+.personal-bio {
+  margin: 0 19px 0 auto;
+  background: #191919;
+  color: #adadad;
+  width: 390px;
+  height: 610px;
+  overflow: scroll;
+  padding: 20px 40px 0;
+  text-align: left;
+  font-weight: 300; }
+  .personal-bio .bio-quote {
+    margin: 0 auto 50px;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 0 0 10px;
+    margin: 22px auto;
+    display: block; }
+  .personal-bio .bio-text {
+    margin: 0 auto 50px;
+    font-size: 17px;
+    line-height: 40px;
+    padding: 0 0 20px;
+    margin: 22px auto;
+    display: block; }
