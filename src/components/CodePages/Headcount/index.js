@@ -72,7 +72,7 @@ class Headcount extends Component {
           <section className="project-section">
             <img
               className="image"
-              src={require("../../../assets/headcount/headcount.gif")}/>
+              src={require("../../../assets/code/headcount/headcount.gif")}/>
             <div className="project-description">
               <p className="paragraph-title">Synopsis</p>
               <p className="page-paragraph">{`HEADCOUNT, an educational district counter, keeps track of institutional statistics in the state on Colorado. Teachers and parents are able to analyze student data by district, year, and percentage, and select districts' information to be compared side by side.`}</p>
@@ -103,19 +103,19 @@ class Headcount extends Component {
             </div>
             <img
               className="image"
-              src={require("../../../assets/headcount/screen-shot-0.png")}/>
+              src={require("../../../assets/code/headcount/screen-shot-0.png")}/>
             <img
               className="image"
-              src={require("../../../assets/headcount/screen-shot-1.png")}/>
+              src={require("../../../assets/code/headcount/screen-shot-1.png")}/>
             <img
               className="image"
-              src={require("../../../assets/headcount/screen-shot-2.png")}/>
+              src={require("../../../assets/code/headcount/screen-shot-2.png")}/>
             <img
               className="image"
-              src={require("../../../assets/headcount/screen-shot-3.png")}/>
+              src={require("../../../assets/code/headcount/screen-shot-3.png")}/>
             <img
               className="image"
-              src={require("../../../assets/headcount/screen-shot-4.png")}/>
+              src={require("../../../assets/code/headcount/screen-shot-4.png")}/>
             {this.displaySet1()}
           </section>
         </section>

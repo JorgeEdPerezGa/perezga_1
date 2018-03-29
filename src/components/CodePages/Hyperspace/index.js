@@ -97,6 +97,9 @@ class Hyperspace extends Component {
               <p className="paragraph-title">Project Goals</p>
               <p
                 className="page-paragraph">
+                {`• Incorporate gallery infinite scroll, fetch next when reaching last`}</p>
+              <p
+                className="page-paragraph">
                 {`• Create modular React components`}</p>
               <p
                 className="page-paragraph">
