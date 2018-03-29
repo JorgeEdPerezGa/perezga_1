@@ -1,4 +1,4 @@
-.hyperspace-image, .headcount-image, .movie-tracker-image {
+.hyperspace-image, .headcount-image, .movie-tracker-image, .weatherly-image {
   background-repeat: no-repeat;
   background-size: 540px;
   height: 300px;
@@ -13,8 +13,11 @@
 .movie-tracker-image {
   background-image: url("https://github.com/JorgeEdPerezGa/movie-tracker/raw/master/public/MovieTrackerScreenshot.png"); }
 
+.weatherly-image {
+  background-image: url("../../../assets/code/weatherly/screen-shot.png"); }
+
 @media screen and (max-width: 400px) {
-  .hyperspace-image, .headcount-image, .movie-tracker-image {
+  .hyperspace-image, .headcount-image, .movie-tracker-image, .weatherly-image {
     background-repeat: no-repeat;
     background-size: 320px;
     height: 180px;
