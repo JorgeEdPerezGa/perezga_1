@@ -31,7 +31,7 @@ class Welcome extends Component {
           </article>
           <article className="gallery-article">
             <p className="main-page-project-title">WEATHERLY</p>
-            <Link to={"/code/movie-tracker"}>
+            <Link to={"/code/weatherly"}>
               <div className="weatherly-image gallery-image"></div>
             </Link>
           </article>

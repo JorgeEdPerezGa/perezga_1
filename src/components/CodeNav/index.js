@@ -9,6 +9,7 @@ class CodeNav extends Component {
         <NavLink className="nav" to="/code/hyperspace">HYPERSPACE</NavLink>
         <NavLink className="nav" to="/code/headcount">HEADCOUNT</NavLink>
         <NavLink className="nav" to="/code/movie-tracker">MOVIE TRACKER</NavLink>
+        <NavLink className="nav" to="/code/weatherly">WEATHERLY</NavLink>
       </nav>
     );
   }
