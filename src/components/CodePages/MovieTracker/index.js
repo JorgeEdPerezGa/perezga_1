@@ -69,9 +69,6 @@ class MovieTracker extends Component {
           <img
             className="technology-icon git-icon"
             src={require("../../../assets/technologies/gitLogo.svg")}/>
-          <img
-            className="technology-icon"
-            src={require("../../../assets/technologies/illustrator.svg")}/>
         </section>
         <section>
           <div className="page-title">MOVIE TRACKER</div>
