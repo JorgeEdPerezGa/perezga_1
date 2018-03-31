@@ -170,3 +170,7 @@ button:focus {
 
 .repository-button-right {
   margin-left: 20px; }
+
+.app-title {
+  color: #e8e8e8;
+  text-decoration: none; }
