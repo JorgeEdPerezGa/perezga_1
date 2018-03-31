@@ -10,7 +10,7 @@ class Nav extends Component {
           <NavLink className="app-title" to="/">JORGE ED PEREZGA</NavLink>
           <NavLink className="nav" to="/code">CODE</NavLink>
           <NavLink className="nav" to="/design">DESIGN</NavLink>
-          <NavLink className="nav" to="/finearts">ART</NavLink>
+          <NavLink className="nav" to="/contact">CONTACT</NavLink>
         </header>
       </nav>
     );
