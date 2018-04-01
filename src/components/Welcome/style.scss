@@ -44,26 +44,26 @@
   background: #191919;
   color: #adadad;
   width: 390px;
-  height: 610px;
+  height: 540px;
   overflow: scroll;
   padding: 20px 40px 0;
   text-align: left;
   font-weight: 300;
-    .bio-quote {
-      margin: 0 auto 50px;
-      font-size: 20px;
-      line-height: 40px;
-      padding: 0 0 10px;
-      margin: 22px auto;
-      display: block;
-    }
-    .bio-text {
-      margin: 0 auto 50px;
-      font-size: 17px;
-      line-height: 40px;
-      padding: 0 0 20px;
-      margin: 22px auto;
-      display: block;
-    }
+}
 
+.bio-quote {
+  margin: 0 auto 50px;
+  font-size: 20px;
+  line-height: 40px;
+  padding: 0 0 10px;
+  margin: 22px auto;
+  display: block;
+}
+
+.bio-text {
+  font-size: 17px;
+  line-height: 40px;
+  padding: 0 0 20px;
+  margin: 22px auto 0;
+  display: block;
 }
