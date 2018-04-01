@@ -20,6 +20,10 @@ class Hyperspace extends Component {
     };
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   goGitHub = () => {
     const repository = 'https://github.com/JorgeEdPerezGa/hyperspace';
     window.open(`${repository}`);

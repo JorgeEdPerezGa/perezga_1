@@ -4,6 +4,10 @@ import './style.css';
 
 class ComprehensiveLayoutOne extends Component {
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   goGitHub = () => {
     const repository = 'https://github.com/JorgeEdPerezGa/jp-comp-challenge';
     window.open(`${repository}`);

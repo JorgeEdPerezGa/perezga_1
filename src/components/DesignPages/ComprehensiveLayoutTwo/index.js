@@ -4,13 +4,17 @@ import './style.css';
 
 class ComprehensiveLayoutTwo extends Component {
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   goGitHub = () => {
-    const repository = 'https://github.com/JorgeEdPerezGa/';
+    const repository = 'https://github.com/JorgeEdPerezGa/static-comprehensive-layout-pokemon';
     window.open(`${repository}`);
   }
 
   goLiveSite = () => {
-    const repository = 'https://jorgeedperezga.github.io/';
+    const repository = 'https://jorgeedperezga.github.io/static-comprehensive-layout-pokemon/';
     window.open(`${repository}`);
   }
 

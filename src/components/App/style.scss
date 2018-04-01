@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 button:focus {
   outline: none;
 }
@@ -12,6 +16,7 @@ button:focus {
   z-index: 1;
   position: fixed;
   background-color: #222;
+  background: #191919;  
   padding: 20px;
   color: white;
 }
@@ -33,6 +38,12 @@ button:focus {
   padding: 30px;
   font-size: 27px;
   font-weight: 300;
+}
+
+.page-title-contact {
+  color: #adacac;
+  width: 360px;
+  margin: -10px auto 60px;
 }
 
 .main-page-title {
@@ -210,4 +221,9 @@ button:focus {
 
 .repository-button-right {
   margin-left: 20px;
+}
+
+.app-title {
+  color: #e8e8e8;
+  text-decoration: none;
 }
