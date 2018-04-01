@@ -15,6 +15,10 @@ class Headcount extends Component {
     };
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   goGitHub = () => {
     const repository = 'https://github.com/JorgeEdPerezGa/headcount';
     window.open(`${repository}`);

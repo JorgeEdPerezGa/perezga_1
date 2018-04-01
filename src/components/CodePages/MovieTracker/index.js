@@ -15,6 +15,10 @@ class MovieTracker extends Component {
     };
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   goGitHub = () => {
     const repository = 'https://github.com/JorgeEdPerezGa/movie-tracker';
     window.open(`${repository}`);

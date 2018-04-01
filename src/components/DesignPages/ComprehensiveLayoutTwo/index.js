@@ -4,6 +4,10 @@ import './style.css';
 
 class ComprehensiveLayoutTwo extends Component {
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   goGitHub = () => {
     const repository = 'https://github.com/JorgeEdPerezGa/';
     window.open(`${repository}`);

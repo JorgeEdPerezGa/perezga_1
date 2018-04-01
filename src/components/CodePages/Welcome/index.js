@@ -4,6 +4,10 @@ import './style.css';
 
 class Welcome extends Component {
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <div>
