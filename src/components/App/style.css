@@ -1,3 +1,6 @@
+a {
+  text-decoration: none; }
+
 button:focus {
   outline: none; }
 
@@ -29,6 +32,11 @@ button:focus {
   padding: 30px;
   font-size: 27px;
   font-weight: 300; }
+
+.page-title-contact {
+  color: #adacac;
+  width: 360px;
+  margin: -10px auto 60px; }
 
 .main-page-title {
   color: #222222;
