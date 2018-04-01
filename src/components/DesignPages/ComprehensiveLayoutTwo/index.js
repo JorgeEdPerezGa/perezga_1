@@ -9,12 +9,12 @@ class ComprehensiveLayoutTwo extends Component {
   }
 
   goGitHub = () => {
-    const repository = 'https://github.com/JorgeEdPerezGa/';
+    const repository = 'https://github.com/JorgeEdPerezGa/static-comprehensive-layout-pokemon';
     window.open(`${repository}`);
   }
 
   goLiveSite = () => {
-    const repository = 'https://jorgeedperezga.github.io/';
+    const repository = 'https://jorgeedperezga.github.io/static-comprehensive-layout-pokemon/';
     window.open(`${repository}`);
   }
 
