@@ -12,11 +12,11 @@ button:focus {
 }
 
 .app-header {
-  width: 100vw;
+  width: -webkit-fill-available;
   z-index: 1;
   position: fixed;
   background-color: #222;
-  background: #191919;  
+  background: #191919;
   padding: 20px;
   color: white;
 }
@@ -73,9 +73,8 @@ button:focus {
 
 .page-menu {
   position: fixed;
-  padding-top: 64px;
+  padding-top: 65px;
   width: 100vw;
-  height: 50px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -93,7 +92,7 @@ button:focus {
 
 .nav {
   color: #e8e8e8;
-  padding: 14px 25px;
+  padding: 17px 25px;
   text-decoration: none;
 }
 
@@ -226,4 +225,201 @@ button:focus {
 .app-title {
   color: #e8e8e8;
   text-decoration: none;
+}
+
+.show-more {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+  //app
+
+  .app-title {
+    display: none;
+  }
+
+  .app-header {
+    display: flex;
+    justify-content: space-between;
+    width: -webkit-fill-available;
+  }
+
+  // welcome
+
+  .welcome-main {
+    padding: 0;
+  }
+
+  .media-icon-article {
+    display: flex;
+    justify-content: space-evenly;
+    background: #e6e6e6;
+    height: 80px;
+    padding-bottom: 20px;
+  }
+
+  .media-icon {
+    margin: 25px 0 0 0;
+  }
+
+  .personal-photo {
+    height: 100%;
+  }
+
+  .personal-bio {
+    width: 230px;
+    height: 540px;
+    margin: 30px auto;
+  }
+
+  .menu {
+    height: 80px;
+  }
+
+  .nav {
+    font-size: 20px;
+    padding: 12px 25px;
+  }
+
+  //gallery
+  .page-title {
+    border: none;
+    width: -webkit-fill-available;
+    margin: 0 auto 40px;
+    padding: 0;
+    font-size: 35px;
+    font-weight: 300;
+    margin: 0 auto -10px;
+    padding: 0;
+    font-size: 0;
+  }
+
+  .main-page-title {
+    width: 350px;
+    margin: -90px auto 100px;
+    font-size: 0;
+    font-weight: 400;
+    padding: 0;
+  }
+
+  .gallery-section {
+    padding-top: 20px;
+    width: fit-content;
+  }
+
+  .gallery-image {
+    background-repeat: no-repeat;
+    background-size: 320px;
+    height: 180px;
+    width: 320px;
+  }
+
+  .show-more {
+    border: none;
+    background: #494a49;
+    position: fixed;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #e6e6e6;
+    height: 80px;
+    display: inline-block;
+    width: -webkit-fill-available;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .page-menu {
+    display: none;
+    padding-top: 40px;
+  }
+
+  .page-menu-mobile {
+    width: -webkit-fill-available;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: #504f4f;
+    .active {
+      background: none;
+      color: #e8e8e8;
+    }
+  }
+
+  .icon-section {
+    background: #c7c7c7;
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: baseline;
+    overflow: scroll;
+    padding-right: 0px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+  }
+
+  .technology-icon {
+    width: 30px;
+    margin: 0 25px;
+  }
+
+  .project-section {
+    width: 90%;
+    padding: 40px 0;
+    border: 1px #adacac solid;
+    margin: auto;
+  }
+
+  .repository-button {
+    height: 80px;
+    width: 230px;
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+  // batman
+
+  .batman-icon {
+    width: 100%;
+  }
+
+  // pokemon
+  .pokemon-illustration {
+    width: 100%;
+  }
+
+  .pikachu {
+    display: none;
+  }
+
+  // contact
+  .contact-left {
+    padding: 0;
+  }
+
+  .contact-top {
+    margin-top: 100px;
+  }
+
+  .contact-icon-and-info {
+    width: 70%;
+  }
+
+  .contact-info {
+    font-size: 14px;
+  }
+
+  .contact-icon {
+    width: 50px;
+    margin-top: 0px;
+  }
+
+  .email-icon {
+    margin-left: 5px;
+  }
+
+  .contact-button {
+    width: 80%;
+  }
 }

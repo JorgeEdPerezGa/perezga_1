@@ -22,6 +22,11 @@ class ComprehensiveLayoutTwo extends Component {
 
     return (
       <div>
+        <div className="page-menu-mobile">
+          <button
+            onClick={() => this.props.history.push('/design')}
+            className="show-more">PROJECTS</button>
+        </div>
         <section className="icon-section">
           <img
             className="technology-icon html-icon"
@@ -38,14 +43,12 @@ class ComprehensiveLayoutTwo extends Component {
         </section>
         <section>
           <div className="page-title page-title-long">POKEMON - Character Set And <p className="page-title-second-line">Static Comprehensive Layout</p></div>
-          <div className>
-          </div>
           <button
-            className="repository-button repository-button-left"
+            className="repository-button"
             onClick={this.goGitHub}>Repository Page</button>
-          <button
+          {/* <button
             className="repository-button repository-button-right"
-            onClick={this.goLiveSite}>Live Site</button>
+            onClick={this.goLiveSite}>Live Site</button> */}
           <section className="project-section project-section-two">
             <div className="project-description">
               <p className="paragraph-title paragraph-title-two">Description</p>
@@ -101,7 +104,7 @@ class ComprehensiveLayoutTwo extends Component {
                   className="pokemon-illustration"
                   src={require("../../../assets/design/pokemon/poliwag.svg")}/>
                 <img
-                  className="pokemon-illustration"
+                  className="pokemon-illustration pikachu"
                   src={require("../../../assets/design/pokemon/pikachu.svg")}/>
 
               </article>

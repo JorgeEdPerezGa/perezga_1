@@ -26,7 +26,7 @@ class Contact extends Component{
           <section>
             <div className="page-title page-title-contact">CONTACT</div>
           </section>
-          <article className="contact-icon-and-info">
+          <article className="contact-icon-and-info contact-top">
             <img
               className="contact-icon"
               src={require("../../assets/contact/telephone.svg")}/>
