@@ -48,6 +48,11 @@ class Headcount extends Component {
 
     return (
       <div>
+        <div className="page-menu-mobile">
+          <button
+            onClick={() => this.props.history.push('/code')}
+            className="show-more">PROJECTS</button>
+        </div>
         <section className="icon-section">
           <img
             className="technology-icon"
