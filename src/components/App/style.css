@@ -212,7 +212,7 @@ button:focus {
   .menu {
     height: 80px; }
   .nav {
-    font-size: 20px;
+    font-size: 15px;
     padding: 12px 25px; }
   .page-title {
     border: none;
@@ -242,8 +242,7 @@ button:focus {
     border: none;
     background: #494a49;
     position: fixed;
-    margin-top: 15px;
-    font-size: 20px;
+    font-size: 15px;
     color: #e6e6e6;
     height: 80px;
     display: inline-block;
