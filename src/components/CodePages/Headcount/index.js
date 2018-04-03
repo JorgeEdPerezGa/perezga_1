@@ -105,7 +105,7 @@ class Headcount extends Component {
               <p className="paragraph-title">Contributor</p>
               <p
                 className="page-paragraph">
-                Jorge Ed PerezGa - https://github.com/JorgeEdPerezGa</p>
+                Jorge Ed PerezGa - github.com/JorgeEdPerezGa</p>
             </div>
             <div className="project-description">
               <p className="paragraph-title">Project Layout</p>
