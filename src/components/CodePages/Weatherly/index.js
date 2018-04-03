@@ -65,13 +65,13 @@ class Weatherly extends Component {
                 {`• UI should change to reflect the current weather`}</p>
             </div>
             <div className="project-description">
-              <p className="paragraph-title">Contributor</p>
+              <p className="paragraph-title">Contributors</p>
               <p
                 className="page-paragraph">
-                Jorge Ed PerezGa - https://github.com/JorgeEdPerezGa</p>
+                Jorge Ed PerezGa - github.com/JorgeEdPerezGa</p>
               <p
                 className="page-paragraph">
-                Hector A. Sanchez - https://github.com/hsanchez7934</p>
+                Hector A. Sanchez - github.com/hsanchez7934</p>
             </div>
             <div className="project-description">
               <p className="paragraph-title">Project Layout</p>

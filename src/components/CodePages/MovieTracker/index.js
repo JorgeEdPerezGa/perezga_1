@@ -110,13 +110,13 @@ class MovieTracker extends Component {
               <p className="paragraph-title">Contributors</p>
               <p
                 className="page-paragraph">
-                Jorge Ed PerezGa - https://github.com/JorgeEdPerezGa</p>
+                Jorge Ed PerezGa - github.com/JorgeEdPerezGa</p>
               <p
                 className="page-paragraph">
-                Amanda Tjan - https://github.com/soytjan</p>
+                Amanda Tjan - github.com/soytjan</p>
               <p
                 className="page-paragraph">
-                James Logue - https://github.com/jjlljj</p>
+                James Logue - github.com/jjlljj</p>
             </div>
             <div className="project-description">
               <p className="paragraph-title">Project Layout</p>
